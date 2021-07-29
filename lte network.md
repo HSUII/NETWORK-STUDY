@@ -28,7 +28,7 @@
     - 기존의 3G는 음성 서비스 (CIRCUIT SWITHING) 방식으로 통화를 지원했지만 4G LTE에서는 PACKET SWITCHING 방식으로 통화를 지원한다. 
     - LTE를 통해 음성서비스를 제공하는 것을 **VoLTE**라고 한다. 인터넷접속하는 데이터 서비스와 음성 서비스 모두 lte로 이루어지지만, 음성서비스의 경우 끊기거나 , 지연되면 
 안되기 떄문에 두 lte를 분리해서 따로 IP를 제공해서 서비스한다.   
-    - 두 IP 중 하나는 인터넷 접속용이고, 다른 IP는 VoLTE를 위한 IMS 전용 IP로 사용하게 된다. 
+    - 두 IP 중 하나는 인터넷 접속용이고, 다른 IP는 VoLTE를 위한 **IMS** 전용 IP로 사용하게 된다. 
     ![image](https://user-images.githubusercontent.com/87008955/127415454-27e2d5c6-b9bc-4886-8891-f43cb17f3014.png)
 ***
 - **DIATMETER PROTOCOL**   
@@ -44,5 +44,11 @@
       - PROXY 기능
       - PCRF SELECTION 및 SESSION BINDING
       - ADDRESS RESOLUTION 및 LOAD BALANCING
-      - DRA-DRA 
+      - DRA-DRA 메세지 PROXY ROUTING 기능
+      - AVP CONFIGURATION 및 MEDIATION 기능 
+      - GMLC 연동 SLg/SLh 인터페이스 지원 
+      - CPU 과부하 제어 및 혼잡제어 기능
+      - IWF 기능
+      - SECURITY 기능
+      - TOPOLOGY HIDING 기능 
   
