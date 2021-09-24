@@ -50,6 +50,24 @@ Header는 요청에 대한 추가 정보를 담고 있는 부분이다. 공통�
 
 - HTTP Method 
 
+![image](https://user-images.githubusercontent.com/87008955/134633002-a3f5ea9c-5f09-46e9-a07f-60c0d9c34305.png)
+
+- header 
+
+![image](https://user-images.githubusercontent.com/87008955/134633054-8386b9ca-449f-4661-a994-4fed506af567.png)
+
+2)Response/응답 
+
+```
+HTTP/1.1 200 OK  // = 시작줄 / HTTP 버전, 상태코드, 상태 텍스트
+Access-Control-Allow-Origin : *
+Connection : Keey-Alive  //header
+<!DOCTYPE html><html lang="ko" data-reactroot=""><h...  //body
+```
+
+Response는 서버에서 받은 응답을 뜻한다.    
+HTTP메세지는 요청과 똑같이 시작줄, header,body로 이루어져있다. 
 
 
 
+[출처: 프론트엔드 면접 질문 정리, HTTP & HTTPS (feat. HTTP/1.1, HTTP/2.0, HTTP Method)|작성자 Jaeeun](https://blog.naver.com/jaeeun_98/222458024463)
